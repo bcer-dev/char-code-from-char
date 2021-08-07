@@ -1,2 +1,2 @@
 main:
-	gcc Main.c -o App
+	gcc Main.c -o charcode
