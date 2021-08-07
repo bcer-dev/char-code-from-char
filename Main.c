@@ -22,8 +22,8 @@ int main(int argc, char *argv[])
     }
 
     // Print out the result to the user.
-    int charCode = (int) argv[1][0];
-    printf("ASCII Char Code of %c is %i...\n", argv[1][0], charCode);
+    char character = argv[1][0];
+    printf("ASCII Char Code of %c is %i...\n", character, character);
 
     return 0;
 }
