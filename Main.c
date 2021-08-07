@@ -4,6 +4,15 @@
 
 int main(int argc, char *argv[])
 {
+    // If there are either no arguments, or
+    // more than 1 argument, send error message, and
+    // return 1.
+    if (argc != 2)
+    {
+        printf("Usage: %s char\n", argv[0]);
+        return 1;
+    }
+
     // If user inputs more than one character, send 
     // error message, and return 1.
     if (strlen(argv[1]) > 1)
